@@ -7,3 +7,18 @@ This Ruby on Rails server hosts 3 frontend applications.
 Geolocation API is used to be able to display local news depending on the surfers position (Sweden/US)
 - [El-gaucho admin](https://el-gaucho-admin.netlify.app/), [github](https://github.com/Saralundkvist86/client_admin_el_gaucho_nyheter) where journalists can publish articles. Images are able to be attached using toBase64.
 - [mobile](https://github.com/Saralundkvist86/mobile_el_gaucho_nyheter) is a React Native mobile application 
+
+#### Setup
+To use this server, fork this repository to your own GitHub account and clone it to your local workspace.
+
+Install all of the dependencies:
+
+``` $ bundle ```
+
+Create and migrate local database :
+
+``` $ Rails db:create db:migrate ```
+
+Run all test suites
+
+``` $ rspec ```
